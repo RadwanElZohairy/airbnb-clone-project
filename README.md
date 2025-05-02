@@ -49,3 +49,45 @@ POST /reviews/ - Create a new review
 GET /reviews/{review_id}/ - Retrieve a specific review
 PUT /reviews/{review_id}/ - Update a specific review
 DELETE /reviews/{review_id}/ - Delete a specific review
+
+Feature Breakdown
+1. API Documentation
+OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+
+3. User Authentication
+Endpoints: /users/, /users/{user_id}/
+Features: Register new users, authenticate, and manage user profiles.
+
+5. Property Management
+Endpoints: /properties/, /properties/{property_id}/
+Features: Create, update, retrieve, and delete property listings.
+
+7. Booking System
+Endpoints: /bookings/, /bookings/{booking_id}/
+Features: Make, update, and manage bookings, including check-in and check-out details.
+
+9. Payment Processing
+Endpoints: /payments/
+Features: Handle payment transactions related to bookings.
+
+11. Review System
+Endpoints: /reviews/, /reviews/{review_id}/
+Features: Post and manage reviews for properties.
+
+13. Database Optimizations
+Indexing: Implement indexes for fast retrieval of frequently accessed data.
+Caching: Use caching strategies to reduce database load and improve performance.
+
+API Security
+OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+REST API: Detailed documentation available through the OpenAPI standard, including endpoints for users, properties, bookings, and payments.
+GraphQL API: Provides a flexible query language for retrieving and manipulating data.
+
+CI/CD Pipelines
+guides the process of software development through a path of building, testing, and deploying code
+Tools that can be used for that are like GitHub Actions, Docker
+
